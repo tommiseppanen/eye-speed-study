@@ -36,4 +36,4 @@ I decided to continue the testing with a simple web app since I had a couple of 
 - 95 Hz flicker
 - 60 Hz flicker
 
-Based on these tests, the flickering seems to disappear when approaching the maximum update frequency of the displays (except the 60 Hz desktop screen). That makes me think that could it be just due to ghosting/persistence of the screens. However, more test with faster displays would be needed.
+Based on these tests, the flickering seems to disappear when approaching the maximum update frequency of the displays (except the 60 Hz desktop screen). That makes me think that could it be just due to ghosting/persistence of the screens. However, more testing with faster displays would be needed.
