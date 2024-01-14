@@ -224,7 +224,6 @@ void FlickerTest::OnUpdate()
 // Render the scene.
 void FlickerTest::OnRender()
 {
-    auto startTime = high_resolution_clock::now();
     // Record all the commands we need to render the scene into the command list.
     PopulateCommandList();
 
@@ -250,8 +249,6 @@ void FlickerTest::OnRender()
         time = high_resolution_clock::now() - m_TimeOfLastRender;
         totalNanoseconds = duration_cast<nanoseconds>(time).count();
     }
-    wchar_t buffer[256];
-    swprintf(buffer, 100, L"%d\n", totalNanoseconds);
     m_TimeOfLastRender = high_resolution_clock::now();
 }
 
