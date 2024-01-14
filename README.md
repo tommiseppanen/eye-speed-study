@@ -5,7 +5,9 @@ I prepared a simple DX12 app to test the flicker fusion threshold by rendering b
 
 ## PC Test results:
 ### Display #1 (144Hz with 160 Hz OC mode)
-- 60 FPS flicker (Windows refresh rate set to 60Hz)
+Display adjusted from Windows to different refresh rates
+- 60 FPS flicker
+- 95 FPS flicker
 - 144 FPS no-flicker
 - 160 FPS no-flicker
 
@@ -13,12 +15,13 @@ I prepared a simple DX12 app to test the flicker fusion threshold by rendering b
 - 60 FPS flicker
 
 ### 144 Hz VRR display with capped FPS:
+FPS value verified from the screen's own FPS meter
 - 60 FPS flicker
 - 120 FPS flicker
 - 130 FPS flicker
 - 140 FPS flicker
 
-### Native refresh rate 144 Hz but render two frames of each color:
+### Native refresh rate (144 Hz) but render two frames of each color:
 - 77 FPS flicker
 
 ## Web Test results:
