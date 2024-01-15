@@ -13,7 +13,7 @@ Display adjusted from Windows to different refresh rates
 ### Display #2 (60 Hz)
 - 60 FPS flicker
 
-### 144 Hz VRR display with capped FPS:
+### 144 Hz Variable Refresh Rate (VRR) display with capped FPS:
 FPS value verified from the screen's own FPS meter
 - 60 FPS flicker
 - 120 FPS flicker
