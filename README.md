@@ -1,8 +1,7 @@
 # Visual perception study
-After reading an article about the [speed of human visual perception](https://www.hs.fi/tiede/art-2000010100592.html) (article references [a white paper](https://www.biorxiv.org/content/10.1101/2023.11.15.567175v1) about the subject), I wanted to test if I could reproduce the same phenomenon with my computer screen.
+After reading an article about the [speed of human visual perception and flicker fusion](https://www.hs.fi/tiede/art-2000010100592.html) (article references [a white paper](https://www.biorxiv.org/content/10.1101/2023.11.15.567175v1) about the subject), I wanted to test if I could reproduce the same phenomenon with my computer screen.
 
-I prepared a simple DX12 app to test the flicker fusion threshold by rendering black and white frames after each other to the computer screen.
-
+I prepared a simple DX12 app to test the flicker fusion threshold by continuosly rendering black and white frames after each other. Then I tested the application with different refresh rates.
 ## PC Test results:
 ### Display #1 (144Hz with 160 Hz OC mode)
 Display adjusted from Windows to different refresh rates
