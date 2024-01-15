@@ -27,15 +27,15 @@ FPS value verified from the screen's own FPS meter
 I decided to continue the testing with a simple web app since I had a couple of mobile devices with different refresh rates. The web test was also run on a desktop browser to verify results.
 
 ### Mobile phone #1 
-- 120 Hz no-flicker
 - 60 Hz flicker
+- 120 Hz no-flicker
 
 ### Mobile phone #2
 - 90 Hz no-flicker
 
 ### Desktop browser
-- 144 Hz no-flicker
-- 95 Hz flicker
 - 60 Hz flicker
+- 95 Hz flicker
+- 144 Hz no-flicker
 
 Based on these tests, the flickering seems to disappear when approaching the maximum update frequency of the displays (except the 60 Hz desktop screen). That makes me think that could it be just due to ghosting/persistence of the screens. However, more testing with faster displays would be needed.
