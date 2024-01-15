@@ -8,6 +8,10 @@ FlickerTest::FlickerTest(UINT width, UINT height, std::wstring name) :
     m_width = width;
     m_height = height;
     m_title = name;
+    m_useWarpDevice = false;
+    m_hwnd = NULL;
+    m_fenceEvent = NULL;
+    m_fenceValue = 0;
 }
 
 void FlickerTest::OnInit(HWND hwnd)
